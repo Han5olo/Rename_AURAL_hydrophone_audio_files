@@ -61,4 +61,7 @@ def rename_audio_files(csv_path, input_dir=None, output_dir=None):
 if __name__ == "__main__":
     # Example usage
     csv_file = "OsloWaveTankAuralHydrophone_2025-11-05.csv"
-    rename_audio_files(csv_file)
+
+    input_dir = None
+    output_dir = None
+    rename_audio_files(csv_file, input_dir, output_dir)
